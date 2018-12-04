@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="maratona-jsf2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/maratona_jsf2_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="maratona-jsf2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maratona-jsf2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.13" />
+          <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.1.7" />
+          <element id="library" level="project" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.2" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
